@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body{
+*{
   margin: 0;
   padding: 0;
 }
@@ -40,4 +40,28 @@ header{
 
 a{
   color: white;
+  text-decoration: none;
+}
+
+main{
+  padding: 25px 0;
+}
+
+footer{
+  display: flex;
+  color: white;
+  background-color: #ce5230;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Comic Sans MS';
+}
+
+.flex-left {
+  width: 60%;
+  padding-right: 40px;
+}
+
+.copy-right {
+  font-size: 12px;
 }
