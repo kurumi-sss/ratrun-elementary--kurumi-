@@ -43,15 +43,166 @@ a{
   text-decoration: none;
 }
 
-main{
-  padding: 25px 0;
+.top{
+  padding: 70px 50px;
+  text-align: center;
+  background-color: #ce5230;
+  color: white;
+  font-family: 'Comic Sans MS';
+  border-bottom: 4px solid gray;
+}
+
+.top-img{
+  width: 40%;
+  padding-top: 30px;
+}
+
+.top>p{
+  font-size: 22px;
+}
+
+#about-me{
+  display: flex;
+  background-color: #dad2c5;
+  align-items: center;
+  border-bottom: 4px solid gray;
+}
+
+.about-me-left{
+  text-align: center;
+  width: 50%;
+}
+
+.about-me-left>img{
+  height: 450px;
+  width: 450px;
+  padding: 50px;
+}
+
+.about-me-right{
+  width: 50%;
+  text-align: center;
+  margin: 0px;
+}
+
+.about-me-right>h2{
+  padding: 50px;
+  margin: 0px;
+}
+
+.profile {
+  color: white;
+  background-color: #ce5230;
+  font-size: 15px;
+  padding: 30px;
+  border: 4px solid gray;
+  width: 70%;
+  margin: 0 auto;
+  text-align: left;
+  display: block;
+  line-height: 2em;
+}
+
+h2{
+  font-family: "Noto Sans JP",sans-serif;
+  font-size: 2rem;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+table th{
+  width: 120px;
+}
+
+table td{
+  width: 200px;
+}
+
+#interest{
+  display: flex;
+  padding: 50px;
+  background-color: #dad2c5;
+  border-bottom: 4px solid gray;
+}
+
+.interest-child{
+  padding: 10px;
+  width: 33%;
+  text-align: center;
+}
+
+h3{
+  color: #ce5230;
+  text-align: center;
+  font-size: 2rem;
+  padding: 10px 0;
+}
+
+.interest-img{
+  height: 300px;
+  width: auto;
+}
+
+#career{
+  display: flex;
+  padding: 50px;
+  background-color: #dad2c5;
+  border-bottom: 4px solid gray;
+}
+
+.time-line{
+  background-image: url("img/time-tree.e774d4e.png");
+  background-size: 800px 800px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 800px;
+  width: 600px;
+}
+
+.high-school{
+  position: absolute;
+  top: 80px;
+  left: 75px;
+  color: #fe5e6f;
+  font-weight: 700;
+}
+
+.university{
+  position: absolute;
+  top: 260px;
+  left: 420px;
+  color: #08a68e; 
+  font-weight: 700;
+}
+
+.job{
+  position: absolute;
+  top: 435px;
+  left: 85px;
+  color: #93b7c8;
+  font-weight: 700;
+}
+
+.ratrun-school{
+  position: absolute;
+  top: 635px;
+  left: 420px;
+  color: #285b6d;
+  font-weight: 700;
+}
+
+.career-img {
+  display: block;
+  height: 300px;
+  width: 300px;
+  padding: 40px;
 }
 
 footer{
   display: flex;
   color: white;
   background-color: #ce5230;
-  width: 100%;
   align-items: center;
   padding: 20px;
   font-family: 'Comic Sans MS';
