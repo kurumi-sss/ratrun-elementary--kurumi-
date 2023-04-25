@@ -86,7 +86,7 @@ a{
 }
 
 .about-me-right>h2{
-  padding: 50px;
+  padding: 0 50px 50px 50px;
   margin: 0px;
 }
 
@@ -217,4 +217,72 @@ footer{
   font-size: 12px;
 }
 
-@media screen and (max-width: 959px) {}
+@media screen and (max-width: 959px) {
+
+  #about-me {
+      display: block;
+    }
+  
+    .about-me-left {
+      width: 100%;
+    }
+
+    .about-me-left>img {
+      height: 400px;
+      width: 400px;
+    }
+
+    .about-me-right {
+      width: 100%;
+    }
+
+    .profile {
+      color: #ce5230;
+      background-color: transparent;
+      border: none;
+      margin-bottom: 50px;
+    }
+
+    #interest {
+      display: block;
+    }
+
+    .interest-child {
+      width: 100%;
+    }
+
+    #career {
+      display: block;
+    }
+
+    .time-line {
+      background-size: 600px 600px;
+      height: 600px;
+      width: 100%;
+      font-size: 12px;
+    }
+    
+    .high-school {
+      top: 60px;
+      left: 130px;
+    }
+
+    .university {
+      top: 200px;
+      left: 390px;
+    }
+
+    .job {
+      top: 330px;
+      left: 130px;
+    }
+
+    .ratrun-school {
+      top: 480px;
+      left: 390px;
+    }
+
+    .career-img {
+      margin: auto;    
+    }
+}
