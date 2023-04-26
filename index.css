@@ -163,7 +163,8 @@ h3{
 .high-school{
   position: absolute;
   top: 80px;
-  left: 75px;
+  left: 50%;
+  margin-left: -220px;
   color: #fe5e6f;
   font-weight: 700;
 }
@@ -171,7 +172,8 @@ h3{
 .university{
   position: absolute;
   top: 260px;
-  left: 420px;
+  left: 50%;
+  margin-left: 120px;
   color: #08a68e; 
   font-weight: 700;
 }
@@ -179,7 +181,8 @@ h3{
 .job{
   position: absolute;
   top: 435px;
-  left: 85px;
+  left: 50%;
+  margin-left: -220px;
   color: #93b7c8;
   font-weight: 700;
 }
@@ -187,7 +190,8 @@ h3{
 .ratrun-school{
   position: absolute;
   top: 635px;
-  left: 420px;
+  left: 50%;
+  margin-left: 120px;
   color: #285b6d;
   font-weight: 700;
 }
@@ -217,7 +221,7 @@ footer{
   font-size: 12px;
 }
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 1080px) {
 
   #about-me {
       display: block;
@@ -264,22 +268,22 @@ footer{
     
     .high-school {
       top: 60px;
-      left: 130px;
+      margin-left: -170px;
     }
 
     .university {
       top: 200px;
-      left: 390px;
+      margin-left: 95px;
     }
 
     .job {
       top: 330px;
-      left: 130px;
+      margin-left: -170px;
     }
 
     .ratrun-school {
       top: 480px;
-      left: 390px;
+      margin-left: 95px;
     }
 
     .career-img {
